@@ -4,7 +4,7 @@ the page is used for a page to build and the thing for you is to write scss by t
 该解决方案有一下几点有点：<br/>
 一、使用rem适配移动端所有设备，fixd手机淘宝rem在某些手机上的不适配方案，在此js的基础上加多了一层js尺寸检验过滤。<br/>
 二、模块化js,在你编写js完毕发布的时候，你可以一键release， fis3会自动帮你以mod.js的模块化方案去模块化js<br/>
-三、在js内部可以做到按需加载，在页面展示的时候可以节省了下载的流量，可以提高页面在2gh网络环境下的体验。按需加载使用的是
+三、在js内部可以做到按需加载，在页面展示的时候可以节省了下载的流量，可以提高页面在2g网络环境下的体验。按需加载使用的是
 require.async([moduleName], function(module){
   here is for the async code
 });<br/>
