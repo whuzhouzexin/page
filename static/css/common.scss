@@ -1,0 +1,28 @@
+@function toRem($px) {
+  @return $px/64*1rem;
+}
+$color: #f2f2f2 #707070 #fff #84ccc9 #bcbbbb #4f4f4f;
+.clear {
+  *zoom: 1;
+}
+.clear:after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: hidden;
+}
+
+.textover {
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space: nowrap;
+} 
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
